@@ -31,9 +31,11 @@
 #ifndef PNGPP_ERROR_HPP_INCLUDED
 #define PNGPP_ERROR_HPP_INCLUDED
 
+#include <string>
 #include <stdexcept>
 #include <cerrno>
 #include <cstdlib>
+#include <cstring>
 
 namespace png
 {
